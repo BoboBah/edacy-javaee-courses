@@ -18,6 +18,9 @@ public class Talent {
 	@Column(name = "id")
 	private Long id;
 
+
+	private String ville;
+
 	private String surname;
 	
 	@Column(name = "full_name")
