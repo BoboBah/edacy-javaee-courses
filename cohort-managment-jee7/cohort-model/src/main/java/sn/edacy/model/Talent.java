@@ -17,6 +17,8 @@ public class Talent {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
 	private Long id;
+
+	private String surname;
 	
 	@Column(name = "full_name")
 	private String fullName;
